@@ -1,0 +1,86 @@
+.col-1{
+  width:19% ;
+}
+.col-2 {
+  width: 39%;
+}
+
+.col-3 {
+  width: 59%;
+}
+
+.col-4 {
+  width: 79%;
+}
+
+.col-5 {
+  width: 99%;
+}
+
+
+.t4{
+	background-image:  url("imgs/bg.png");
+	height: 100% ;
+}
+
+.cool-2-2{
+	width: 39%;
+	height: 390px;
+
+	float: left;
+
+	margin-left:0.8% ;
+
+	float: left ;
+
+	margin-top: 20px;
+
+	border: solid 2px;
+	border-color: yellow ; 
+}
+
+
+.row::after {
+	content:"" ;
+	clear : both;
+	display:table ;
+}
+
+[class*="col-"]{
+
+	float: left ;
+
+	margin-left:0.8% ;
+
+	height: 185px;
+
+	margin-top: 20px;
+
+	border: solid 2px;
+	border-color: yellow ; 
+
+
+
+}
+
+.aud{
+	opacity: 0.6 ;
+	width : 20%;
+}
+.aud1{
+	opacity: 0.6 ;
+	width : 10%;
+}
+.aud2{
+	opacity: 0.6 ;
+	width : 6%;
+}
+.aud3{
+	opacity: 0.6 ;
+	width : 5%;
+}
+.aud4{
+	opacity: 0.6 ;
+	width : 4%;
+}
+
